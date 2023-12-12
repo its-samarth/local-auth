@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "expo-localauthentication-example",
+    "slug": "expo-localauthentication-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app uses Face ID and Touch ID to verify the user's identity and protect sensitive data"
+      },
+      "bundleIdentifier": "com.chelseafarley.expolocalauthenticationexample"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.chelseafarley.expolocalauthenticationexample"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dc5dee67-5151-4d02-8cfa-b7320283980c"
+      }
+    }
+  }
+}
